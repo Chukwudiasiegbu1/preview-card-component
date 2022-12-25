@@ -1,0 +1,103 @@
+/* Please look at my styling in general and tell me how I could do better*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit';
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background: hsl(217, 54%, 11%);
+}
+.container{
+    width: 200px;
+    height: 350px;
+    display: block;
+    background: hsl(216, 50%, 16%);
+    padding: 15px;
+    border-radius: 0.5em;
+    
+}
+.image img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+}
+.title{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.paragraph{
+    font-size: 10px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+}
+/* This is my boring styling of the problem i commented about in html*/
+/*My problem starts here*/
+.rush-now{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.bottom-line{
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    opacity: 0.1;  
+    margin-bottom: 15px; 
+}
+.rush-now img{
+    width: 10px;
+    margin: 3px;
+}
+.rush-now .price{
+    display: inline-flex;
+    place-content: center;
+    color: hsl(178, 100%, 50%);
+    font-size: 10px;
+    font-weight: 500;
+}
+.rush-now .price img{
+    width: 8px;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+.rush-now .timer{
+    display: inline-flex;
+    place-content: center;
+    margin-left: 44px;
+    color: hsl(215, 51%, 70%);
+}
+.author{
+  
+    display: inline-flex;
+    place-content: center;
+    font-size: 9px;
+    color: white;
+    
+}
+span{
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+}
+.author img{
+    width: 20px;
+    height: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid white;
+    border-radius: 100%;
+    
+}
+/*My problem ends here*/
+
+
